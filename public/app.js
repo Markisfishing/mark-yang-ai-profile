@@ -5,7 +5,7 @@ const translations = {
     "nav.agent": "AI Agent",
     "nav.contact": "Contact",
     "nav.resume": "Resume",
-    "hero.eyebrow": "AI Application Engineering Intern | FinTech-Oriented",
+    "hero.eyebrow": "AI Application Engineering Intern",
     "hero.name": "Mark Yang / 楊祐瑜",
     "hero.text": "I build practical AI tools with Python, LLM workflows, AI agents, data preprocessing, and lightweight dashboards. I am seeking an AI application engineering internship where AI can be applied to real systems and FinTech workflows.",
     "hero.askAgent": "Ask AI Profile Agent",
@@ -42,9 +42,9 @@ const translations = {
     "agent.placeholder": "Ask about Mark's projects, skills, or FinTech fit...",
     "agent.send": "Send",
     "contact.kicker": "Contact",
-    "contact.title": "Open to AI application engineering internships.",
+    "contact.title": "Looking forward to discussing more possibilities with you.",
     "contact.resume": "Download PDF Resume",
-    "footer.note": "AI Application Engineering Intern | FinTech-Oriented"
+    "footer.note": "AI Application Engineering Intern"
   },
   zh: {
     "nav.projects": "專案",
@@ -52,7 +52,7 @@ const translations = {
     "nav.agent": "AI 助理",
     "nav.contact": "聯絡",
     "nav.resume": "履歷",
-    "hero.eyebrow": "AI 應用工程實習生｜金融科技導向",
+    "hero.eyebrow": "AI 應用工程實習生",
     "hero.name": "楊祐瑜 / Mark Yang",
     "hero.text": "我專注於 Python、LLM workflow、AI Agent、資料處理與輕量 dashboard 應用開發。希望投入 AI 應用工程實習，將 AI 技術落地到真實系統與金融科技流程中。",
     "hero.askAgent": "詢問 AI Profile Agent",
@@ -89,9 +89,9 @@ const translations = {
     "agent.placeholder": "詢問 Mark 的專案、技能或金融科技適配度...",
     "agent.send": "送出",
     "contact.kicker": "聯絡",
-    "contact.title": "開放 AI 應用工程實習機會。",
+    "contact.title": "期待與你討論更多可能性。",
     "contact.resume": "下載 PDF 履歷",
-    "footer.note": "AI 應用工程實習生｜金融科技導向"
+    "footer.note": "AI 應用工程實習生"
   }
 };
 
