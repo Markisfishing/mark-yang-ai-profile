@@ -169,21 +169,21 @@ p {
 h1 {
   max-width: 760px;
   margin-bottom: 22px;
-  font-size: clamp(46px, 8vw, 86px);
-  line-height: 0.96;
+  font-size: clamp(38px, 6vw, 68px);
+  line-height: 1;
   letter-spacing: -0.02em;
 }
 
 h2 {
   margin-bottom: 0;
-  font-size: clamp(30px, 4vw, 48px);
-  line-height: 1.04;
-  letter-spacing: -0.015em;
+  font-size: clamp(28px, 3.2vw, 40px);
+  line-height: 1.16;
+  letter-spacing: -0.01em;
 }
 
 h3 {
   margin-bottom: 12px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
@@ -223,7 +223,7 @@ h3 {
 }
 
 .section {
-  padding: 92px 0;
+  padding: 78px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -235,7 +235,7 @@ h3 {
 
 .prose {
   color: var(--muted);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .prose p:last-child,
@@ -245,7 +245,7 @@ h3 {
 }
 
 .section-heading {
-  max-width: 760px;
+  max-width: 880px;
   margin-bottom: 34px;
 }
 
