@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mark Yang / 楊祐瑜 - AI Application Engineering Intern, FinTech-oriented resume and AI Profile Agent."
+    />
+    <title>Mark Yang | AI Application Engineering Intern</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Mark Yang resume home">
+          <span class="brand-mark">MY</span>
+          <span>Mark Yang</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#skills" data-i18n="nav.skills">Skills</a>
+          <a href="#agent" data-i18n="nav.agent">AI Agent</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="lang-toggle" type="button" id="langToggle" aria-label="Toggle language">
+            中文
+          </button>
+          <a class="button button-ghost" href="/assets/mark-yang-resume.pdf" download data-i18n="nav.resume">
+            Resume
+          </a>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">AI Application Engineering Intern | FinTech-Oriented</p>
+            <h1>
+              <span data-i18n="hero.name">Mark Yang / 楊祐瑜</span>
+            </h1>
+            <p class="hero-text" data-i18n="hero.text">
+              I build practical AI tools with Python, LLM workflows, AI agents, data preprocessing, and lightweight dashboards. I am seeking an AI application engineering internship where AI can be applied to real systems and FinTech workflows.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#agent" data-i18n="hero.askAgent">Ask AI Profile Agent</a>
+              <a class="button button-secondary" href="/assets/mark-yang-resume.pdf" download data-i18n="hero.download">
+                Download Resume
+              </a>
+            </div>
+          </div>
+          <figure class="portrait-wrap">
+            <img src="/assets/mark-yang.jpg" alt="Mark Yang portrait" class="portrait" />
+          </figure>
+        </section>
+
+        <section class="section two-column" id="about">
+          <div>
+            <p class="section-kicker" data-i18n="about.kicker">About</p>
+            <h2 data-i18n="about.title">AI builder with a practical FinTech direction.</h2>
+          </div>
+          <div class="prose">
+            <p data-i18n="about.p1">
+              I am currently studying Intelligent Computing and Big Data at Chung Yuan Christian University. My work focuses on Python, machine learning, LLM workflows, AI agent development, Knowledge Tracing, and dashboard-based applications.
+            </p>
+            <p data-i18n="about.p2">
+              I am interested in financial markets and hold a Securities Specialist license. I want to apply AI engineering skills to repeated financial workflows, internal tools, data analysis, and practical FinTech systems.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <p class="section-kicker" data-i18n="projects.kicker">Selected Projects</p>
+            <h2 data-i18n="projects.title">Built around AI systems, data, and interpretable output.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-meta">
+                <span>AI Agent</span>
+                <span>LLM Workflow</span>
+                <span>Gradio</span>
+              </div>
+              <h3 data-i18n="projects.aiTutor.title">AI Tutor / AI 助教系統</h3>
+              <p data-i18n="projects.aiTutor.body">
+                An AI Agent-based programming learning assistant designed to help students understand programming concepts and receive personalized learning support. I contributed to overall system architecture planning, prompt design, and LLM response flow.
+              </p>
+              <ul class="project-points">
+                <li data-i18n="projects.aiTutor.point1">Planned task logic and component integration.</li>
+                <li data-i18n="projects.aiTutor.point2">Designed prompt and response flow for AI tutor feedback.</li>
+                <li data-i18n="projects.aiTutor.point3">Connected learning data with dashboard-oriented insights.</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-meta">
+                <span>LightGBM</span>
+                <span>SNA</span>
+                <span>Team Lead</span>
+              </div>
+              <h3 data-i18n="projects.qsearch.title">QSearch SNA / Viral Post Prediction</h3>
+              <p data-i18n="projects.qsearch.body">
+                A model-driven project that predicts which social media posts may gain high future traffic. As team leader, I worked on data cleaning, model comparison, project direction, and weekly progress planning.
+              </p>
+              <div class="metric-row" aria-label="QSearch model metrics">
+                <div>
+                  <strong>0.7227</strong>
+                  <span>Test AUC</span>
+                </div>
+                <div>
+                  <strong>54.9%</strong>
+                  <span>Top-1K Hit Rate</span>
+                </div>
+                <div>
+                  <strong>R + C + S</strong>
+                  <span>Weighted Index</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-heading">
+            <p class="section-kicker" data-i18n="skills.kicker">Skills</p>
+            <h2 data-i18n="skills.title">A practical stack for AI application work.</h2>
+          </div>
+          <div class="skill-grid">
+            <div class="skill-block">
+              <h3>Python & Data</h3>
+              <p>Python, Pandas, NumPy, CSV / Parquet, data preprocessing</p>
+            </div>
+            <div class="skill-block">
+              <h3>AI / ML</h3>
+              <p>Machine Learning, Deep Learning, PyTorch, Knowledge Tracing</p>
+            </div>
+            <div class="skill-block">
+              <h3>LLM & Agent</h3>
+              <p>AI agent development, prompt design, LLM workflows, GraphCodeBERT</p>
+            </div>
+            <div class="skill-block">
+              <h3>Tools</h3>
+              <p>Gradio, Streamlit, Docker, Qdrant, NetworkX</p>
+            </div>
+            <div class="skill-block">
+              <h3 data-i18n="skills.financeTitle">Finance Foundation</h3>
+              <p data-i18n="skills.financeBody">Securities Specialist license, basic financial market knowledge, FinTech application interest</p>
+            </div>
+            <div class="skill-block">
+              <h3 data-i18n="skills.growthTitle">Currently Improving</h3>
+              <p data-i18n="skills.growthBody">Coding fluency and database skills through structured practice and project work</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section two-column">
+          <div>
+            <p class="section-kicker" data-i18n="experience.kicker">Experience</p>
+            <h2 data-i18n="experience.title">Reliable execution across work, teams, and real settings.</h2>
+          </div>
+          <div class="timeline">
+            <article>
+              <span data-i18n="experience.admin.role">Administrative Support Assistant</span>
+              <p data-i18n="experience.admin.body">Document organization, campus event coordination, administrative support, and internal communication.</p>
+            </article>
+            <article>
+              <span data-i18n="experience.accounting.role">Accounting Firm Assistant</span>
+              <p data-i18n="experience.accounting.body">Document handling, data organization, and basic administrative support in a business workflow.</p>
+            </article>
+            <article>
+              <span data-i18n="experience.volunteer.role">Overseas English Volunteer Service in Cambodia</span>
+              <p data-i18n="experience.volunteer.body">Teaching support, material preparation, local interaction, adaptability, and teamwork.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section agent-section" id="agent">
+          <div class="agent-intro">
+            <p class="section-kicker" data-i18n="agent.kicker">Interactive Resume</p>
+            <h2>AI Profile Agent</h2>
+            <p data-i18n="agent.description">
+              Ask about Mark's AI projects, technical skills, FinTech motivation, certification, experience, or contact information.
+            </p>
+          </div>
+
+          <div class="agent-panel" aria-label="AI Profile Agent chat">
+            <div class="chat-log" id="chatLog" aria-live="polite"></div>
+            <div class="prompt-chips" id="promptChips"></div>
+            <form class="chat-form" id="chatForm">
+              <input
+                id="chatInput"
+                type="text"
+                autocomplete="off"
+                data-i18n-placeholder="agent.placeholder"
+                placeholder="Ask about Mark's projects, skills, or FinTech fit..."
+              />
+              <button class="button button-primary" type="submit" data-i18n="agent.send">Send</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div>
+            <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
+            <h2 data-i18n="contact.title">Open to AI application engineering internships.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:y7632457@gmail.com">y7632457@gmail.com</a>
+            <a href="tel:+886979982811">0979-982-811</a>
+            <a href="https://github.com/Markisfishing" target="_blank" rel="noreferrer">GitHub / Markisfishing</a>
+            <a href="/assets/mark-yang-resume.pdf" download data-i18n="contact.resume">Download PDF Resume</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>Mark Yang / 楊祐瑜</span>
+        <span data-i18n="footer.note">AI Application Engineering Intern | FinTech-Oriented</span>
+      </footer>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
